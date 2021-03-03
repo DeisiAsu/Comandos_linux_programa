@@ -1,0 +1,48 @@
+PERMISOS DE ARCHIVOS Y ACCESOS
+        todos los archivos o directorios tiene una sección que indica los permisos que se
+        le asignan, los permisos se dividen en 4 secciones las cuales son:
+                ejemplo: drwx-wxrwx
+                como se ven los grupos: d rwx -wx rwx
+
+
+        1       la primera sección indica el tipo de elemento que se enlisto este puede ser
+                un directorio (carpeta) o un archivo.
+
+        2       en el segundo grupo se indica los permisos que tiene el usuario los cuales
+                pueden ser de lectura (r), escritura (w) y de ser un archivo ejecutables de
+                ejecución (x) de no contar con alguno de estos permisos se indicara con el
+                signo menos (-).
+
+        3       en el tercer grupo se indica los permisos para los integrantes del grupo al
+                que pertenece el archivo.
+
+        4       en el tercer grupo se indica los permiso que otros usuarios que los cuales
+                pueden ser varios.
+
+        para ver los permisos que tiene un archivo o directorio podemos verificarlos con el
+        comando ls -l estos permisos se encuentra al principio de la lista.
+
+        PRIEMRA SECCIÓN
+                en esta sección se pueden encontrar dos caracteres diferentes:
+                        -       el guion (-) indica que es un archivo común ya sea un
+                                ejecutable o un documento de cualquier extensión.
+
+                        d       este signo indica que el elemento enlistado es un directorio
+                                común mente conocido como carpeta.
+
+        SECCIÓN 2 3 Y 4
+                estas sección se divide en grupos de tres y se puede encontrar 4 tipos de
+                carácter los cuales indican si tiene o no permiso según la letra que corres-
+                ponde.
+
+                        -       indica que el archivo o directorio no cuenta con el permiso
+                                asignado.
+
+                        r       esto indica que tiene permiso de lectura según el grupo a
+                                quien este asignado
+
+                        w       indica que tiene permiso de escritura.
+
+                        x       si el archivo fuera un ejecutable podrías ver si se tiene
+                                permiso de ejecución de ser un directorio esto significaría
+                                que tiene permiso para ingresar.

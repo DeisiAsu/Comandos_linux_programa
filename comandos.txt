@@ -1,0 +1,96 @@
+LISTA DE COMANDOS PARA LINUX BASICO
+
+
+
+LOS COMANDOS EN LINUX SON ABREVIACIONES DE LA PALABRA COMPLETA EN INGLES ESTOS
+COMANDOS PUEDEN IRNA COMPAÑADOS DE OPCIONES Y ARGUMENTOS.
+
+
+        COMANDOS:       los comandos son pequeños programas que realizen acciones
+                        en el sistema operativo.
+
+        OPCIONES:       las opciones cambian el comportamientos  del comando para
+                        que realice su cometido pero con opciones agregadas o
+                        resumidas.
+
+                        /       indica el directorio raíz del sistema operativo
+                        $       indica el directorio del usuario
+                        ..      indica que es el directorio padre
+                        .       indica el directorio actual
+
+        ARGUMENTOS:     los argumentos complementan un comando estos dan infor-
+                        mación adicional para su funcionamiento.
+
+NAVEGACIÓN
+
+        pwd             muestra la dirección actal en que te encuentras.
+        ls              permite desplegar un listado del contenido  de la carpeta
+                        actual, tambien  puedes especificar de que carpeta deseas
+                        ver el contenido.
+
+                        -OPCIONES:
+                        -l      muestra másdetallen en la lista
+                        -a      muestra el contenido oculto de la lista
+                        -al     permite realizar  las dos opciones ateri-
+                                ores declardo en una misma opción.
+                        -t      ordena la lista por fecha de codificación
+                        -x      ordena por nombre y después por extensión.
+                        -X      ordena primero por extensión.
+                        -lh     muestra lainformación en KB, MB
+
+
+        cd              permite movilizarte entre directorios.
+                        ejemplos:
+                        cd..    se moviliza a la carpeta padre  de tu ubicación
+
+                        cd      luego del comando agrefa el nombe  del directorio
+                                hijo al que deseas movrte.
+
+                        cd/     te moviliza a la carpete raíz del sistema
+                                operativo.
+
+                        cd $    te moviliza a la carpeta del usurio.
+
+
+CREACIÓN DE DIRECTORIOS
+        mkdir           permite crear un directorio nuevo
+                        ejemplo:
+                                mkdir nombreDelDirectorio
+
+        rmdir           perimite eliminar un directorio pero
+                        no se puede eliminar si tiene contenido.
+
+        cp              permite copiar un archivo especifico el
+                        nombre  del archivo y el lugar donde se
+                        moviliza.
+
+CREACIÓN DE ARCHIVOS
+
+        touch           con este comando se crea un documento .txt
+                        ejemplo:
+                                touch nombreDocumento.txt
+
+        cat             podemos crear un .txt y ver el contenido de un archivo
+                        ejemplo:
+                                cat > nombreNuevoDirectorio //crear
+                                cat   nombreDirectorioAver  //vert
+
+        haed            el comando head seguido  del nombre de un archivo muestra
+                        el contenido  de las primeras líneas.
+                                head -n   podemos indicar cuantas líneas
+                                          de inicio queremos.
+                                head nombreArchivo.extension
+                                head -n numerosDelineas nombreArchivo.extension
+
+        tail                    este comando  realiza todo lo contrario del comando
+                                head.
+
+        rm                      permite eliminar un archivo, epecifico luego del
+                                comando el nombre del archivo con su extensión.
+
+        mv                      permite movilizar un archivo de un directorio a otro.
+
+        nano                    permite crear un documento de texto y editarlo su
+                                interfas es más simple de utilizar.
+
+        vim                     permite craer un docuimento editable de texto.
